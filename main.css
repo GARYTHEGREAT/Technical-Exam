@@ -1,0 +1,74 @@
+
+ 
+body {
+    font-family:cursive, -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: red;
+    background-image: url('images/HelloWorld1.jpg');
+    background-size: 75px;
+     background-color: gray;  
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+body {
+    margin: 100;
+}
+
+
+
+
+
+
+
+
+  h1 {
+    animation-duration: 600ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+ @keyframes blink {
+    from {
+       opacity: 1;
+       color: Red;
+    }
+    to {
+       opacity: 0;
+       color: white;
+
+       
+    }
+  }
+
+
+
+
+ 
+ body {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+      
+    }
+  }
+ 
+ form { 
+    font-family: electricFont;
+    font-size: 70%;
+    color: green;
+    text-align: center;
+
+    
+    }

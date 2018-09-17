@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>-List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+
+   
+</head>
+<input type='button' onclick='localStorage.clear();' value='Refresh Page' />
+
+<body>
+    <h1>Developers On Staff</h1>
+    <ul id = 'developer-list'></ul>
+    <form id = 'new-developer'>
+        <p> New Developer's First Name</p>
+        <input name = 'newDeveloper' placeholder='Name' required='required'/>
+        <p> New Developer's School</p>
+        <input name = 'newSchool' placeholder= 'School'required='required'/>
+        <p> New Developer's Language</p>
+        <input name = 'newLanguage' placeholder= 'Programming Language' required='required'/>
+        <button type = 'submit'>submit </button>
+
+        
+    </form>
+    
+</body>
+<script src="main.js"></script>
+</html>
